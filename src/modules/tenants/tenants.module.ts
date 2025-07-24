@@ -1,3 +1,7 @@
+/**
+ * Módulo responsável pelo gerenciamento de tenants e pela persistência do
+ * histórico de mensagens.
+ */
 import { Module, MiddlewareConsumer } from '@nestjs/common';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { TenantsService } from './tenants.service';

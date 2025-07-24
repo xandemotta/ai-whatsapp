@@ -1,3 +1,7 @@
+/**
+ * Serviço que encapsula o SDK da OpenAI para gerar respostas de chat e
+ * realizar transcrição de áudio usando o Whisper.
+ */
 import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import OpenAI from 'openai';

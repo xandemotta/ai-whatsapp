@@ -1,3 +1,7 @@
+/**
+ * Estratégia JWT utilizada pelo Passport para validar tokens e extrair a
+ * informação do tenant do payload.
+ */
 import { Injectable } from '@nestjs/common';
 import { PassportStrategy } from '@nestjs/passport';
 import { ExtractJwt, Strategy } from 'passport-jwt';

@@ -1,3 +1,8 @@
+/**
+ * Ponto de entrada da aplicação responsável por iniciar o servidor NestJS.
+ * Carrega os certificados HTTPS, cria a instância da aplicação e escuta na
+ * porta configurada.
+ */
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import { ConfigService } from '@nestjs/config';

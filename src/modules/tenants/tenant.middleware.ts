@@ -1,3 +1,8 @@
+/**
+ * Middleware que anexa o identificador do tenant à requisição com base no
+ * usuário autenticado ou em um header. Lança exceção quando não é possível
+ * resolver o tenant.
+ */
 import { Injectable, NestMiddleware, UnauthorizedException } from '@nestjs/common';
 import { Request, Response, NextFunction } from 'express';
 

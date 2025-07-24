@@ -1,3 +1,7 @@
+/**
+ * Serviço contendo operações para recuperar tenants e armazenar mensagens do
+ * histórico de chat no banco de dados.
+ */
 import { Injectable } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';

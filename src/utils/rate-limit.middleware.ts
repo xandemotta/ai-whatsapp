@@ -1,3 +1,7 @@
+/**
+ * Middleware que implementa um limitador de requisições em memória para evitar
+ * abusos no endpoint público do webhook.
+ */
 import { Injectable, NestMiddleware, HttpException } from '@nestjs/common';
 import { RateLimiterMemory } from 'rate-limiter-flexible';
 import { Request, Response, NextFunction } from 'express';
