@@ -1,3 +1,8 @@
+/**
+ * Módulo que registra o controller de webhook do WhatsApp junto aos serviços de
+ * OpenAI e tenant. Também aplica o middleware de verificação de assinatura da
+ * requisição.
+ */
 import { Module, MiddlewareConsumer } from '@nestjs/common';
 import { WhatsappController } from './whatsapp.controller';
 import { WhatsappService } from './whatsapp.service';

@@ -1,3 +1,8 @@
+/**
+ * Controller que processa o webhook do WhatsApp para mensagens recebidas e
+ * requisições de verificação. Utiliza o OpenAI para gerar respostas e persiste
+ * a conversa através do TenantsService.
+ */
 import { Body, Controller, Get, Post, Query, Req, UseGuards } from '@nestjs/common';
 import { Request } from 'express';
 import { WhatsappService } from './whatsapp.service';

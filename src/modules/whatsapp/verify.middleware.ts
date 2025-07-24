@@ -1,3 +1,7 @@
+/**
+ * Middleware que valida a assinatura das requisições do WhatsApp garantindo
+ * que as mensagens realmente venham dos servidores da Meta.
+ */
 import { Injectable, NestMiddleware, UnauthorizedException } from '@nestjs/common';
 import { Request, Response, NextFunction } from 'express';
 import * as crypto from 'crypto';

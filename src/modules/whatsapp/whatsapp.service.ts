@@ -1,3 +1,6 @@
+/**
+ * Serviço utilizado para enviar mensagens pela API do WhatsApp Business Cloud.
+ */
 import { Injectable } from '@nestjs/common';
 import { ConfigService } from '@nestjs/config';
 import axios from 'axios';

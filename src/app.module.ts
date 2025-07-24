@@ -1,3 +1,7 @@
+/**
+ * Módulo raiz da aplicação que reúne configurações, banco de dados e
+ * módulos de funcionalidades como integração com WhatsApp e suporte ao OpenAI.
+ */
 import { Module } from '@nestjs/common';
 import { ConfigModule } from '@nestjs/config';
 import { TypeOrmModule } from '@nestjs/typeorm';
