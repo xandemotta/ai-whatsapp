@@ -1,3 +1,7 @@
+/**
+ * Wrapper simples do Winston que implementa o LoggerService do NestJS e grava
+ * logs tanto em arquivos rotativos quanto no console.
+ */
 import { LoggerService } from '@nestjs/common';
 import * as winston from 'winston';
 import 'winston-daily-rotate-file';

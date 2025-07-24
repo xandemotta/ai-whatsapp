@@ -1,3 +1,7 @@
+/**
+ * Classe utilitária para criptografia e descriptografia simétrica usando
+ * AES-256-CBC.
+ */
 import * as crypto from 'crypto';
 
 export class Encryptor {

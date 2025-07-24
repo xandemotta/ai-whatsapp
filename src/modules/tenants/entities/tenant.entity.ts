@@ -1,3 +1,8 @@
+/**
+ * Entidade TypeORM que representa a configuração de um tenant do chatbot.
+ * Cada tenant possui um nome único e um prompt de sistema opcional usado nas
+ * conversas com o OpenAI.
+ */
 import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity()
